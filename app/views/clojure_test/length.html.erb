@@ -1,0 +1,11 @@
+<h1>Simple JRuby/Clojure integration</h1>
+
+<p>Enter a string below:</p>
+<% form_tag(get_length_path, :method => :get) do -%>
+  <p>
+    <%= text_field_tag 'string' %>
+  </p>
+  <p>
+    <%= submit_tag 'Get Length' %>
+  </p>
+<% end -%>

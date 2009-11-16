@@ -1,0 +1,2 @@
+module ClojureTestHelper
+end
